@@ -13,7 +13,7 @@ class Multiply
         return intval($number->getValue());
     }
 
-    public function multiplyBy5(int $number)
+    public function multiplyBy7(int $number)
     {
         $number2 = new BigNumber($number2);
         $number2->multiply(7);
